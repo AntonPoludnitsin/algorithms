@@ -16,4 +16,4 @@ export const binary_search = (array, targetNumber) => {
     }
 
     return -1;
-}
+};
