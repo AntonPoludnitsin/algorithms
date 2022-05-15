@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Algorithms and Data Structures",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
