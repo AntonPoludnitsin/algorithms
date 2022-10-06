@@ -4,7 +4,7 @@ export const binary_search = (array, targetNumber) => {
     let highIndex = length;
 
     while (lowIndex <= highIndex) {
-        const middleIndex = lowIndex + Math.floor(highIndex - lowIndex);
+        const middleIndex = lowIndex + Math.floor((highIndex - lowIndex) / 2);
 
         if (array[middleIndex] === targetNumber) {
             return middleIndex;
